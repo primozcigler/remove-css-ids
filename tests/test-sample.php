@@ -1,10 +1,28 @@
 <?php
 
-class SampleTest extends WP_UnitTestCase {
+class RemoveCssIDsTest extends WP_UnitTestCase {
 
 	function testSample() {
-		// replace this with some actual testing code
-		$this->assertTrue( true );
+
+		$this->assertEquals(
+			'<link href="abc.css" />',
+			remove_style_tag_id( '<link id="krneki-css" href="abc.css" />' )
+		);
+
+		$this->assertEquals(
+			'<link href="abc.css" />',
+			remove_style_tag_id( '<link href="abc.css" />' )
+		);
+
+		$this->assertEquals(
+			'',
+			remove_style_tag_id( '' )
+		);
+
+		$this->assertEquals(
+			"<link href='abc.css' />",
+			remove_style_tag_id( "<link id='krneki-css' href='abc.css' />" )
+		);
 	}
 }
 
