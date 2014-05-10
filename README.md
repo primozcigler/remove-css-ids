@@ -1,15 +1,10 @@
-=== Plugin Name ===
-Contributors: cyman
-Tags: enqueue, css, attributes, id, mod_pagespeed, pagespeed, link
-Requires at least: 3.8
-Tested up to: 3.9
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+[![Build Status](https://travis-ci.org/primozcigler/remove-css-ids.svg?branch=master)](https://travis-ci.org/primozcigler/remove-css-ids)
 
 WP plugin that removes the ID attributes from the <link> tags for the CSS files. Used mostly together with mod_pagespeed.
 
-== Description ==
+## Description
+
+#### [Link to WordPress.org site of the plugin](http://wordpress.org/plugins/remove-css-link-ids/).
 
 This simple plugin hooks to the `wp_enqueue_scripts` and removed the `id='<handle of the css file>-css'` attribute. Most of the time you don't need these IDs anyway.
 
@@ -19,22 +14,11 @@ There is also a very simple unit test for it, created using wp-cli: `wp scaffod 
 
 Enjoy the speedy sites! :)
 
-Do you want to contribute? Great! Please fork [this repository](https://github.com/primozcigler/remove-css-ids), make the changes and create a pull request.
-
-== Installation ==
+## Installation
 
 1. Unzip `remove-css-link-ids.zip` and upload unzipped folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-== Frequently Asked Questions ==
+## Issues / suggestions
 
-= A question that someone might have? =
-
-No questions asked yet.
-
-== Changelog ==
-
-= 1.0.0 =
-* First release
-
-== Upgrade Notice ==
+Please fork this repository, make the changes and create a pull request.

@@ -4,7 +4,7 @@ Plugin Name: Remove CSS link IDs
 Version: 1.0.0
 Description: WP plugin that removes the ID attributes from the <link> tags for the CSS files. Used mostly together with mod_pagespeed.
 Author: Primoz Cigler
-Author URI: http://www.proteusnet.com/blog
+Author URI: http://twitter.com/primozcigler
 Plugin URI: http://www.proteusnet.com/blog
 License: GPL v2
 */
