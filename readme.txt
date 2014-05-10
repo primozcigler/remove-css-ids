@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: cyman
-Tags: enqueue, css, attributes, id
+Tags: enqueue, css, attributes, id, mod_pagespeed, pagespeed, link
 Requires at least: 3.8
 Tested up to: 3.9
 Stable tag: 1.0.0
