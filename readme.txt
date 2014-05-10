@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: cyman
-Tags: enqueue, css, attributes, id, mod_pagespeed, pagespeed, link
+Tags: enqueue, css, attributes, id, mod_pagespeed, pagespeed, link, optimization
 Requires at least: 3.8
 Tested up to: 3.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
