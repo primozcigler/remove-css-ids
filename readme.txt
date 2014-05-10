@@ -21,7 +21,7 @@ Enjoy the speedy sites! :)
 
 == Installation ==
 
-1. Unzip `remove-css-ids.zip` and upload unzipped folder to the `/wp-content/plugins/` directory
+1. Unzip `remove-css-link-ids.zip` and upload unzipped folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
