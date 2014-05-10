@@ -4,7 +4,6 @@ php:
     - 5.4
 
 env:
-    - WP_VERSION=latest WP_MULTISITE=0
     - WP_VERSION=latest WP_MULTISITE=1
 
 before_script:
